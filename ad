@@ -1,0 +1,89 @@
+[33mcommit 1f577f497d805e68bcc0c2b839683985fff2001e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 23:01:20 2022 -0400
+
+    added in args[0]
+
+[33mcommit 9ab8ab442b73cc2b1f3265c5e6d7ff950eafafd5[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:52:44 2022 -0400
+
+    testing 2
+
+[33mcommit a1597927a6e99c9871847c58bb29eae5056221b7[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:50:55 2022 -0400
+
+    testing
+
+[33mcommit ea031d04f01ee80e4fb8adb6a8488fd3530a2dab[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:49:47 2022 -0400
+
+    2nd please
+
+[33mcommit b174554ed7e07a060e067cb7aeb4623c89e9c29d[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:47:19 2022 -0400
+
+    please!
+
+[33mcommit 2dbc5b03d235a0706903ef5ccd530c6f632dd009[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:41:42 2022 -0400
+
+    removed the slice
+
+[33mcommit cc05f351e180fa7a0d44a6a3fe756c3698a713ba[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:31:59 2022 -0400
+
+    changed app back to server then added .
+
+[33mcommit a5b0a997f772a0ccf266c9aadc46cf7691dfa6f4[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:27:36 2022 -0400
+
+    changed server.js to app.
+
+[33mcommit 3e39f59da4b67471732fa5fad48e30b4188d847b[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:22:09 2022 -0400
+
+    changed npm.
+
+[33mcommit 3a6fe7447fd8ce2ea7127ab89865987f82467182[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:14:48 2022 -0400
+
+    added log file 3.
+
+[33mcommit 43a08e4850f16c862749a13141f5a29c56ceed42[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 22:08:50 2022 -0400
+
+    added log file 2.
+
+[33mcommit 55887a82521dcc0d49c907201ab64be5215cd0a8[m
+Author: Dnam00 <hyunda@live.unc.edu>
+Date:   Wed Aug 31 21:55:52 2022 -0400
+
+    added log file 1.
+
+[33mcommit e084de347945d4303aca0a70761ad57151ecd88a[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Aug 29 05:28:36 2022 +0000
+
+    GitHub Classroom Autograding Workflow
+
+[33mcommit ef56c8b9247f1d26e812329da77c068241f1ef35[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Aug 29 05:28:35 2022 +0000
+
+    GitHub Classroom Autograding
+
+[33mcommit fcca52f56acd82fdf172fdd2b44ad82a4e7f2e89[m
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Mon Aug 29 05:28:34 2022 +0000
+
+    Initial commit
