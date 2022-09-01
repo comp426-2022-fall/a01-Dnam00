@@ -16,7 +16,9 @@ const port = args.port || process.env.PORT || 3000;
 fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
+	
 if (err) {
+	console.log("look up");
 	console.error(err);
 	return;
 	}
