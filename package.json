@@ -2,16 +2,23 @@
   "name": "dnam00-a01",
   "version": "1.0.0",
   "description": "This package contains a very simple web server that takes one argument for port and then serves any files isnide the public directory.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "node server.js --port=5555"
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a01-Dnam00.git"
   },
   "keywords": [
-    "web"
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
   ],
   "author": "Dnam00",
   "license": "GPL-3.0-or-later",
@@ -21,5 +28,6 @@
   "homepage": "https://github.com/comp426-2022-fall/a01-Dnam00#readme",
   "dependencies": {
     "minimist": "^1.2.6"
-  }
+  },
+  "devDependencies": {}
 }
