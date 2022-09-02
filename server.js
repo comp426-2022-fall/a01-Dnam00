@@ -40,15 +40,15 @@ if (err) {
 // 3. end with the data that you are reading in from ./public/index.html.
 //console.log(data);
 const server = http.createServer((req, res) => {
-	res.statusCode = 200;
-	res.setHeader('Content-type', 'text/html');
-	res.end(data);
+	res.statusCode = 200
+	res.setHeader('Content-type', 'text/html')
+	res.end(data)
 	//res.end(
 })
 // Start the `server` const listening on the port defined by argument in your `port` const. 
 // Put the exact message `Server listening on port ${port}` on the console log. 
 server.listen(port, () => {
-	console.log(`Server listening on port ${port}`);
+	console.log(`Server listening on port ${port}`)
 })
 });
 // That's it! You're all done!
