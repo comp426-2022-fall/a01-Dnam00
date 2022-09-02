@@ -18,14 +18,12 @@ const port = args.port || 3000;
 fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.	
-if (err) {
-	
+	if (err) {	
 	//console.log("before error");
 	//console.log(port);
-	console.error(err);
+		console.error(err);
 	//console.log("after error");
-
-	return;
+		return;
 	}
 	//console.log("before data");
 	//console.log(port);
@@ -39,9 +37,9 @@ if (err) {
 // 2. set a header with content type `text/html`, and 
 // 3. end with the data that you are reading in from ./public/index.html.
 //console.log(data);
-const server = http.createServer((req, res) => {
-	res.statusCode = 200
-	res.setHeader('Content-type', 'text/html')
+	const server = http.createServer((req, res) => {
+		res.statusCode = 200
+		res.setHeader('Content-Type', 'text/html')
 	res.end(data)
 	//res.end(
 })
