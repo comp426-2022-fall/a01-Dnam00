@@ -18,8 +18,8 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // Do not be nice about exiting.
 	
 if (err) {
-	console.log("look up");
-	console.error(err);
+	//console.log("look up");
+	console.error("look up" + err);
 	return;
 	}
 	console.log(data);
