@@ -1,7 +1,7 @@
 {
   "name": "dnam00-a01",
-  "version": "1.0.0",
-  "description": "This package contains a very simple web server that takes one argument for port and then serves any files isnide the public directory.",
+  "version": "0.0.1",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves any files inside the public directory.",
   "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555",
@@ -21,7 +21,7 @@
     "http"
   ],
   "author": "Dnam00",
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a01-Dnam00/issues"
   },
