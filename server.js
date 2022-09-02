@@ -10,7 +10,7 @@ const args = require('minimist')(process.argv.slice(2));
 // Make this const default to port 3000 if there is no argument given for `--port`.
 const port = args.port || process.env.PORT || 3000;
 //console.log("look up port");
-//console.log(port);
+console.log(port);
 // Use the fs module to create an arrow function using `fs.readFile`.
 // Use the documentation for the Node.js `fs` module. 
 // The function must read a file located at `./public/index.html` and do some stuff with it.
@@ -19,13 +19,16 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.	
 if (err) {
-	//console.log("look up");
+	
 	console.log("before error");
+	console.log(port);
 	console.error(err);
 	console.log("after error");
+
 	return;
 	}
 	console.log("before data");
+	console.log(port);
 	console.log(data);
 	console.log("after data");
 });
