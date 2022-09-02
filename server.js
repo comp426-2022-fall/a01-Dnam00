@@ -20,7 +20,9 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // Do not be nice about exiting.	
 if (err) {
 	//console.log("look up");
+	console.log("before error");
 	console.error(err);
+	console.log("after error");
 	return;
 	}
 	console.log("before data");
