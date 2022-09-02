@@ -1,9 +1,9 @@
 // Require http module
-var http = require('http');
+const http = require('http');
 // Require fs module
-var fs = require('fs');
+const fs = require('fs');
 // Require minimist module (make sure you install this one via npm).
-var args = require('minimist')(process.argv.slice(2));
+const args = require('minimist')(process.argv.slice(2));
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.
 //args.port;
 // Define a const `port` using the argument from the command line. 
@@ -31,7 +31,7 @@ if (err) {
 	//console.log(port);
 	//console.log(data);
 	//console.log("after data");
-});
+//});
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
 // The function should have three responses: 
@@ -50,5 +50,5 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
 	console.log(`Server listening on port ${port}`);
 })
-//});
+});
 // That's it! You're all done!
