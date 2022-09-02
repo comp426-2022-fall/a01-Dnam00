@@ -28,6 +28,5 @@
   "homepage": "https://github.com/comp426-2022-fall/a01-Dnam00#readme",
   "dependencies": {
     "minimist": "^1.2.6"
-  },
-  "devDependencies": {}
+  }
 }
