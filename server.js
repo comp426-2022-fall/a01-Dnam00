@@ -20,10 +20,12 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
 // Do not be nice about exiting.	
 if (err) {
 	//console.log("look up");
-	//console.error("look up" + err);
+	console.error(err);
 	return;
 	}
-	//console.log(data);
+	console.log("before data");
+	console.log(data);
+	console.log("after data");
 });
 // Define a const `server` as an arrow function using http.createServer. 
 // Use the documentation for the node.js http module. 
